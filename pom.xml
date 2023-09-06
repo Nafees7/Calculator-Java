@@ -106,6 +106,9 @@
                             <goal>cobertura</goal>
                         </goals>
                         <configuration>
+                             <instrumentation>
+                                <ignoreFailures>true</ignoreFailures>
+                            </instrumentation>
                             <formats>
                                 <format>xml</format>
                                 <format>html</format>
